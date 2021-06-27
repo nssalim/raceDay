@@ -14,3 +14,9 @@
 
 const registeredEarly = true;
 const allYouth = true;
+
+// Assign random race numbers (whole) between 0 and 1000
+let raceNumber = Math.floor(Math.random() * 1000);
+
+// Display random race number
+console.log(`Random race number: ${raceNumber}`)
